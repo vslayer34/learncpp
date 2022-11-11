@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+D:\Projects\C++\learncpp\01_C++ Basics\06_Uninitialized variables and undefined behavior\06_Uninitialized variables and undefined behavior\Source.cpp(7): error C4700: uninitialized local variable 'x' used
+LINK : fatal error LNK1257: code generation failed
