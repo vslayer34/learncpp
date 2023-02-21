@@ -1,0 +1,10 @@
+﻿  Source.cpp
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(19,11): warning C4305: '=': truncation from 'int' to 'unsigned short'
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(19,6): warning C4309: '=': truncation of constant value
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(23,11): warning C4305: '=': truncation from 'int' to 'unsigned short'
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(23,6): warning C4309: '=': truncation of constant value
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(7,15): warning C4101: 'ui': unreferenced local variable
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(6,17): warning C4101: 'us': unreferenced local variable
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(9,21): warning C4101: 'ull': unreferenced local variable
+D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\05_Unsigned integers, and why to avoid them\Source.cpp(8,16): warning C4101: 'ul': unreferenced local variable
+  05_Unsigned integers, and why to avoid them.vcxproj -> D:\Projects\C++\learncpp\04_Fundamental Data Types\05_Unsigned integers, and why to avoid them\x64\Debug\05_Unsigned integers, and why to avoid them.exe
