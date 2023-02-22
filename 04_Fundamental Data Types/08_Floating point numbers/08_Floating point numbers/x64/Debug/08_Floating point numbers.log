@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Projects\C++\learncpp\04_Fundamental Data Types\08_Floating point numbers\08_Floating point numbers\Source.cpp(8,14): warning C4101: 'ldValue': unreferenced local variable
+D:\Projects\C++\learncpp\04_Fundamental Data Types\08_Floating point numbers\08_Floating point numbers\Source.cpp(6,8): warning C4101: 'fValue': unreferenced local variable
+D:\Projects\C++\learncpp\04_Fundamental Data Types\08_Floating point numbers\08_Floating point numbers\Source.cpp(7,9): warning C4101: 'dValue': unreferenced local variable
+  08_Floating point numbers.vcxproj -> D:\Projects\C++\learncpp\04_Fundamental Data Types\08_Floating point numbers\x64\Debug\08_Floating point numbers.exe
