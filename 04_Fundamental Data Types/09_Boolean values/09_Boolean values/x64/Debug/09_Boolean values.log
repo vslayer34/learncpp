@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Projects\C++\learncpp\04_Fundamental Data Types\09_Boolean values\09_Boolean values\Source.cpp(13,7): warning C4101: 'b': unreferenced local variable
+  09_Boolean values.vcxproj -> D:\Projects\C++\learncpp\04_Fundamental Data Types\09_Boolean values\x64\Debug\09_Boolean values.exe
