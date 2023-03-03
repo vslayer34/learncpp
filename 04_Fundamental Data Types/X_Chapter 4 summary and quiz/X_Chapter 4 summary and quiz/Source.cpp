@@ -1,5 +1,9 @@
 #include <iostream>
 
+//--------------------------------------------------------------------------------------------------------------
+// Question III
+//--------------------------------------------------------------------------------------------------------------
+
 float inputFloatNumber()
 {
 	std::cout << "Enter a double value: ";
@@ -74,6 +78,60 @@ void questionThree()
 
 }
 
+//--------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
+// Question IV
+//--------------------------------------------------------------------------------------------------------------
+
+double enterHeight()
+{
+	std::cout << "Enter the height of the tower in meters: ";
+	double height;
+	std::cin >> height;
+
+	return height;
+}
+
+double calculateDistanceToGround(double height, int time)
+{
+	const double gravity{ 9.8 };
+	double distanceToGround{};
+
+	// get distance fallen
+	double distanceFallen = gravity * (time * time) / 2;
+
+	// get distance to ground
+	distanceToGround = height - distanceFallen;
+
+	// prevent distance to ground from being greater than the original height
+	if (distanceFallen > height)
+		return 0.0;
+	else
+		return distanceToGround;
+}
+
+void printResults(int time, double height)
+{
+	double distanceToGround{ calculateDistanceToGround(height, time) };
+
+	if (distanceToGround == 0.0)
+		std::cout << "At " << time << " seconds, the ball is on the ground.\n";
+	else
+		std::cout << "At " << time << " seconds, the ball is at height: " << calculateDistanceToGround(height, time) << " meters.\n";
+}
+
+void questionFour()
+{
+	double height{ enterHeight() };
+
+	printResults(0, height);
+	printResults(1, height);
+	printResults(2, height);
+	printResults(3, height);
+	printResults(4, height);
+	printResults(5, height);
+}
+
 int main()
 {
 	// Question #3
@@ -84,7 +142,22 @@ int main()
 	// If the user enters an invalid symbol, the program should print nothing.
 
 	questionThree();
+	std::cout << "--------------------------------------------------------------------------------------------------------------\n";
 
+	//--------------------------------------------------------------------------------------------------------------
+
+	// Question #4
+	// Write a short program to simulate a ball being dropped off of a tower.
+	// To start, the user should be asked for the height of the tower in meters.
+	// Assume normal gravity (9.8 m/s2), and that the ball has no initial velocity (the ball is not moving to start).
+	// Have the program output the height of the ball above the ground after 0, 1, 2, 3, 4, and 5 seconds.
+	// The ball should not go underneath the ground (height 0).
+
+	// Use a function to calculate the height of the ball after x seconds.
+	// The function can calculate how far the ball has fallen after x seconds using the following formula:
+	// distance fallen = gravity_constant * x_seconds2 / 2
+
+	questionFour();
 	
 	return 0;
 }
