@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Projects\C++\learncpp\05_Operators\07_Logical operators\07_Logical operators\Source.cpp(22,6): warning C4804: '>': unsafe use of type 'bool' in operation
+  07_Logical operators.vcxproj -> D:\Projects\C++\learncpp\05_Operators\07_Logical operators\x64\Debug\07_Logical operators.exe
