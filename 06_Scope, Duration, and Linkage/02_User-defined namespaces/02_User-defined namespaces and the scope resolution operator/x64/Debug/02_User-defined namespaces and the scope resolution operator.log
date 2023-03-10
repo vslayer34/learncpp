@@ -1,0 +1,8 @@
+﻿  Source.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+Source.obj : warning LNK4006: "int __cdecl foo::moo::add(int,int)" (?add@moo@foo@@YAHHH@Z) already defined in foo.obj; second definition ignored
+Source.obj : warning LNK4006: "int __cdecl foo::doSomething(int,int)" (?doSomething@foo@@YAHHH@Z) already defined in foo.obj; second definition ignored
+Source.obj : warning LNK4006: "int __cdecl goo::doSomething(int,int)" (?doSomething@goo@@YAHHH@Z) already defined in goo.obj; second definition ignored
+Source.obj : warning LNK4006: "void __cdecl foo::print(void)" (?print@foo@@YAXXZ) already defined in foo.obj; second definition ignored
+D:\Projects\C++\learncpp\06_Scope, Duration, and Linkage\02_User-defined namespaces and the scope resolution operator\x64\Debug\02_User-defined namespaces and the scope resolution operator.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  02_User-defined namespaces and the scope resolution operator.vcxproj -> D:\Projects\C++\learncpp\06_Scope, Duration, and Linkage\02_User-defined namespaces and the scope resolution operator\x64\Debug\02_User-defined namespaces and the scope resolution operator.exe
