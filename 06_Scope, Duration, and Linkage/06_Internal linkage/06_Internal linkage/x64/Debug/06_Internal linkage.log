@@ -1,0 +1,5 @@
+﻿  add.cpp
+  Source.cpp
+  Generating Code...
+Source.obj : error LNK2019: unresolved external symbol "int __cdecl add(int,int)" (?add@@YAHHH@Z) referenced in function main
+D:\Projects\C++\learncpp\06_Scope, Duration, and Linkage\06_Internal linkage\x64\Debug\06_Internal linkage.exe : fatal error LNK1120: 1 unresolved externals
