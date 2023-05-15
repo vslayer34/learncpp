@@ -70,6 +70,7 @@ bool playGame(int numGuesses, int number)
 	return false;
 }
 
+//*********************************************************************************************************************
 
 int main()
 {
@@ -130,12 +131,26 @@ int main()
 
 	// Question #3
 	{
-		std::cout << "Let's play a game. I'm thinking of a number between 1 and 100. You have 7 tries to guess what it is." << '\n';
+		std::random_device rd;
+		std::seed_seq seq{ rd(), rd(), rd(), rd(), rd(), rd(), rd(), rd() };
+		std::mt19937 mt{ seq };							// Create a mersenne twister, seeded using the seed sequence
+		std::uniform_int_distribution die{ 1, 100 };	// generate random numbers between 1 and 100
 
+		int numOfGuesses{ 7 };
+
+		std::cout << "Let's play a game. I'm thinking of a number between 1 and 100. You have 7 tries to guess what it is." << '\n';
 		char userInput{};
 		
 		while (userInput != 'n')
 		{
+			int number{ die(mt) };				// the number the user needs to guess
+
+			bool isRight{ playGame(numOfGuesses, number) };
+			if (isRight)
+				std::cout << "Correct! You WON!!" << '\n';
+			else
+				std::cout << "Sorry, You Lose. The correct number is " << number << '.' << '\n';
+
 
 		}
 
