@@ -47,4 +47,6 @@ int main()
 
     // But what if you had 100 employees? First, you’d need to type in 100 variable names.
     // And what if you needed to print them all? Or pass them to a function? We’d be in for a lot of typing. This simply doesn’t scale.
+
+    
 }
